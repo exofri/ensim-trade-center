@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-09-08T13:56:14Z",
+  "generated_at": "2026-09-08T13:57:34Z",
   "leaderboard": [
+    {
+      "id": "random_trader",
+      "name": "random_trader",
+      "total_value": 17499.42,
+      "baseline": true
+    },
     {
       "id": "random",
       "name": "Random Trader",
-      "total_value": 17373.92,
+      "total_value": 17498.34,
       "baseline": false
     },
     {
       "id": "bob",
       "name": "Bob Martin",
-      "total_value": 17373.92,
+      "total_value": 17498.34,
       "baseline": false
-    },
-    {
-      "id": "random_trader",
-      "name": "random_trader",
-      "total_value": 17373.92,
-      "baseline": true
     },
     {
       "id": "random_buyer",
       "name": "random_buyer",
-      "total_value": 17373.92,
+      "total_value": 17493.2,
       "baseline": true
     },
     {
       "id": "random_seller",
       "name": "random_seller",
-      "total_value": 17373.92,
+      "total_value": 17484.37,
       "baseline": true
     }
   ]
