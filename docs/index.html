@@ -2,29 +2,32 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>ENSIM Trade Center — market &amp; leaderboard</title>
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4"></script>
+<title>ENSIM Trade Center — leaderboard</title>
 <style>
-  body { font-family: system-ui, sans-serif; max-width: 1000px; margin: 2rem auto; padding: 0 1rem; }
+  body { font-family: system-ui, sans-serif; max-width: 700px; margin: 2rem auto; padding: 0 1rem; }
   table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
   th, td { text-align: left; padding: 0.4rem 0.6rem; border-bottom: 1px solid #ddd; font-size: 0.9rem; }
   tr:first-child td { font-weight: bold; }
   tr.baseline td { color: #888; font-style: italic; }
   .baseline-tag { font-size: 0.75rem; color: #888; font-weight: normal; }
-  canvas { margin-top: 1.5rem; }
   #updated { color: #666; font-size: 0.85rem; }
 </style>
 </head>
 <body>
   <h1>ENSIM Trade Center</h1>
-  <p> This is a simulation exercise, not real trading or real money. Italicized rows are the three built-in reference traders (random trader / buyer / seller) -- comparison baselines. Only total value is shown here .</p>
-  <canvas id="priceChart" height="300"></canvas>
-  <h2>Leaderboard</h2>
+  <p>Leaderboard only. This is a simulation exercise, not real trading or real money. Italicized rows are the three built-in reference traders (random trader / buyer / seller) -- comparison baselines, not real students. Only total value is shown -- individual positions are private.</p>
   <table id="leaderboardTable"><thead><tr><th>#</th><th>Trader</th><th>Total value</th></tr></thead><tbody></tbody></table>
   <p id="updated"></p>
 
 <script>
+fetch('data/leaderboard.json')
+  .then(r => r.json())
+  .then(board => {
     const leaderboard = board.leaderboard || [];
+    if (leaderboard.length === 0) {
+      document.getElementById('updated').textContent = 'No ticks yet -- the market_tick workflow has not run.';
+      return;
+    }
     const tbody = document.querySelector('#leaderboardTable tbody');
     tbody.innerHTML = leaderboard.map((r, i) => `
       <tr class="${r.baseline ? 'baseline' : ''}">
@@ -32,12 +35,10 @@
         <td>${r.name || r.id}${r.baseline ? ' <span class="baseline-tag">(baseline)</span>' : ''}</td>
         <td>${r.total_value.toFixed(1)}</td>
       </tr>`).join('');
-
-    document.getElementById('updated').textContent =
-      `Market last ticked ${market.generated_at}. Leaderboard last computed ${board.generated_at}.`;
+    document.getElementById('updated').textContent = `Leaderboard last computed ${board.generated_at}.`;
   })
   .catch(err => {
-    document.getElementById('updated').textContent = 'Could not load market data (' + err + ').';
+    document.getElementById('updated').textContent = 'Could not load leaderboard (' + err + ').';
   });
 </script>
 </body>
