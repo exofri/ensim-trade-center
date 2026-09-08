@@ -1,0 +1,32 @@
+name: Market tick
+
+"on":
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: market-state
+  cancel-in-progress: false
+
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - run: python scripts/market_tick.py
+        env:
+          MARKET_CONFIG_JSON: ${{ secrets.MARKET_CONFIG_JSON }}
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add market/ traders/ docs/data/
+          git commit -m "Market tick [automated]" || echo "Nothing to commit"
+          git push
