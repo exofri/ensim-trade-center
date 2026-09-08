@@ -17,42 +17,13 @@
 </head>
 <body>
   <h1>ENSIM Trade Center</h1>
-  <p>Shared market state and leaderboard. This is a simulation exercise, not real trading or real money. Italicized rows are the three built-in reference traders (random trader / buyer / seller) -- comparison baselines, not real students. Only total value is shown here -- individual positions are private.</p>
+  <p> This is a simulation exercise, not real trading or real money. Italicized rows are the three built-in reference traders (random trader / buyer / seller) -- comparison baselines. Only total value is shown here .</p>
   <canvas id="priceChart" height="300"></canvas>
   <h2>Leaderboard</h2>
   <table id="leaderboardTable"><thead><tr><th>#</th><th>Trader</th><th>Total value</th></tr></thead><tbody></tbody></table>
   <p id="updated"></p>
 
 <script>
-Promise.all([fetch('data/market.json').then(r => r.json()), fetch('data/leaderboard.json').then(r => r.json())])
-  .then(([market, board]) => {
-    const history = market.history || [];
-    const products = market.products || [];
-    if (history.length === 0) {
-      document.getElementById('updated').textContent = 'No ticks yet -- the market_tick workflow has not run.';
-      return;
-    }
-
-    const colors = ['#0d7c9e', '#c46e0a', '#2e8b46', '#8b2ea0'];
-    new Chart(document.getElementById('priceChart'), {
-      type: 'line',
-      data: {
-        labels: history.map(h => h.t),
-        datasets: products.map((p, i) => ({
-          label: `Product ${p}`,
-          data: history.map(h => h[p]),
-          borderColor: colors[i % colors.length],
-          backgroundColor: 'transparent',
-          pointRadius: 0,
-          borderWidth: 2,
-        })),
-      },
-      options: {
-        plugins: { title: { display: true, text: 'Price history (by tick)' } },
-        scales: { x: { title: { display: true, text: 'Tick' } }, y: { title: { display: true, text: 'Price' } } },
-      },
-    });
-
     const leaderboard = board.leaderboard || [];
     const tbody = document.querySelector('#leaderboardTable tbody');
     tbody.innerHTML = leaderboard.map((r, i) => `
