@@ -1,6 +1,5 @@
 {
   "traders": [
     {"id": "random", "name": "Random Trader", "decision_url": "https://raw.githubusercontent.com/exofri/ensim-trade-center/main/test_trader/decision.json"},
-    {"id": "bob", "name": "Bob Martin", "decision_url": "https://raw.githubusercontent.com/bobm/ensim-trader-bob/main/decision.json"}
   ]
 }
