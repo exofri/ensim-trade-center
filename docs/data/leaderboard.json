@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-09-08T13:56:14Z",
+  "leaderboard": [
+    {
+      "id": "random",
+      "name": "Random Trader",
+      "total_value": 17373.92,
+      "baseline": false
+    },
+    {
+      "id": "bob",
+      "name": "Bob Martin",
+      "total_value": 17373.92,
+      "baseline": false
+    },
+    {
+      "id": "random_trader",
+      "name": "random_trader",
+      "total_value": 17373.92,
+      "baseline": true
+    },
+    {
+      "id": "random_buyer",
+      "name": "random_buyer",
+      "total_value": 17373.92,
+      "baseline": true
+    },
+    {
+      "id": "random_seller",
+      "name": "random_seller",
+      "total_value": 17373.92,
+      "baseline": true
+    }
+  ]
+}
