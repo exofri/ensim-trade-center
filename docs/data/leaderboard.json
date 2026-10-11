@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-11T19:49:57Z",
+  "generated_at": "2026-10-11T23:21:00Z",
   "leaderboard": [
     {
       "id": "random_trader",
       "name": "random_trader",
-      "total_value": 18497.98,
+      "total_value": 18635.14,
       "baseline": true
     },
     {
       "id": "random_buyer",
       "name": "random_buyer",
-      "total_value": 18172.99,
+      "total_value": 18363.66,
       "baseline": true
     },
     {
       "id": "tester",
       "name": "ENSIM tester",
-      "total_value": 18150.56,
+      "total_value": 18295.44,
       "baseline": false
     },
     {
@@ -28,7 +28,7 @@
     {
       "id": "random",
       "name": "Random Trader",
-      "total_value": 16577.23,
+      "total_value": 16577.34,
       "baseline": false
     }
   ]
