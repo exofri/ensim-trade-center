@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-11-17T01:24:11Z",
+  "generated_at": "2026-11-17T09:58:28Z",
   "leaderboard": [
     {
       "id": "random_trader",
       "name": "random_trader",
-      "total_value": 19718.39,
+      "total_value": 19922.78,
       "baseline": true
     },
     {
       "id": "taharachedi",
       "name": "Taha Rachedi",
-      "total_value": 18793.63,
+      "total_value": 19069.44,
       "baseline": false
     },
     {
       "id": "gaspard",
       "name": "Gaspard Bourdas Rougeault",
-      "total_value": 18624.6,
-      "baseline": false
-    },
-    {
-      "id": "tester",
-      "name": "ENSIM tester",
-      "total_value": 18517.87,
+      "total_value": 18935.95,
       "baseline": false
     },
     {
       "id": "random_buyer",
       "name": "random_buyer",
-      "total_value": 18500.92,
+      "total_value": 18811.83,
       "baseline": true
+    },
+    {
+      "id": "tester",
+      "name": "ENSIM tester",
+      "total_value": 18756.71,
+      "baseline": false
     },
     {
       "id": "random_seller",
@@ -40,7 +40,7 @@
     {
       "id": "random",
       "name": "Random Trader",
-      "total_value": 15767.89,
+      "total_value": 15871.41,
       "baseline": false
     }
   ]
