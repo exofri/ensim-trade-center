@@ -7,6 +7,9 @@
     {"id": "joel", "name": "Joel Tchinda Tapa", "decision_url": "https://raw.githubusercontent.com/joeldt/ensim-trader-joeldt/main/decision.json"},
     { "id": "eric-lefebvre", "name": "Eric Lefebvre", "decision_url": "https://raw.githubusercontent.com/eric-lefebvre/ensim-trader-eric-lefebvre/main/decision.json" },
     {"id": "clement", "name": "Clement Moquereau", "decision_url": "https://raw.githubusercontent.com/MoquereauClement/ensim-trade-moquereau/main/decision.json"},
+    {"id": "paul_transon", "name": "Paul Transon", "decision_url": "https://raw.githubusercontent.com/Paul72-hub/TraderIntelligent/main/decision.json"},
+    {"id": "molivier", "name": "Mateo Olivier", "decision_url": "https://raw.githubusercontent.com/molivier1/ensim-trader-molivier/main/decision.json"},
+    {"id": "salmazaime", "name": "Salma Zaime", "decision_url": "https://raw.githubusercontent.com/salmazaime/ensim-trader-salmazaime/main/decision.json"},
     {"id": "gaspard", "name": "Gaspard Bourdas Rougeault", "decision_url": "https://raw.githubusercontent.com/BOURDAS-ROUGEAULT-Gaspard-BI-2026/ensim-trader-gaspard/main/decision.json"},
     {"id": "taharachedi", "name": "Taha Rachedi", "decision_url": "https://raw.githubusercontent.com/taharachedi/ensim-trader-taharachedi/main/decision.json"}
   ]
