@@ -2,6 +2,11 @@
   "traders": [
     {"id": "random", "name": "Random Trader", "decision_url": "https://raw.githubusercontent.com/exofri/ensim-trade-center/main/test_trader/decision.json"},
     {"id": "tester", "name": "ENSIM tester", "decision_url": "https://raw.githubusercontent.com/exofri/ensim-trader/main/decision.json"},
+    {"id": "franck", "name": "Franck Nana Talom", "decision_url": "https://raw.githubusercontent.com/jaures-BUSINESS-INTELLIGENCE/ensim-trader/refs/heads/main/decision.json"},
+    {"id": "warren", "name": "Warren Samir Betchem Ngon", "decision_url": "https://raw.githubusercontent.com/Warren-BI-Projet/TP_2_STUDENT_MANUAL_ensim_trade_center_trader/main/decision.json"},
+    {"id": "joel", "name": "Joel Tchinda Tapa", "decision_url": "https://raw.githubusercontent.com/joeldt/ensim-trader-joeldt/main/decision.json"},
+    { "id": "eric-lefebvre", "name": "Eric Lefebvre", "decision_url": "https://raw.githubusercontent.com/eric-lefebvre/ensim-trader-eric-lefebvre/main/decision.json" },
+    {"id": "clement", "name": "Clement Moquereau", "decision_url": "https://raw.githubusercontent.com/MoquereauClement/ensim-trade-moquereau/main/decision.json"},
     {"id": "gaspard", "name": "Gaspard Bourdas Rougeault", "decision_url": "https://raw.githubusercontent.com/BOURDAS-ROUGEAULT-Gaspard-BI-2026/ensim-trader-gaspard/main/decision.json"},
     {"id": "taharachedi", "name": "Taha Rachedi", "decision_url": "https://raw.githubusercontent.com/taharachedi/ensim-trader-taharachedi/main/decision.json"}
   ]
