@@ -1,71 +1,77 @@
 {
-  "generated_at": "2026-11-23T22:22:24Z",
+  "generated_at": "2026-11-24T06:39:28Z",
   "leaderboard": [
     {
       "id": "taharachedi",
       "name": "Taha Rachedi",
-      "total_value": 21624.84,
+      "total_value": 21737.12,
       "baseline": false
     },
     {
       "id": "gaspard",
       "name": "Gaspard Bourdas Rougeault",
-      "total_value": 19568.4,
+      "total_value": 19646.5,
       "baseline": false
     },
     {
       "id": "franck",
       "name": "Franck Nana Talom",
-      "total_value": 18792.84,
+      "total_value": 18923.09,
       "baseline": false
     },
     {
       "id": "warren",
       "name": "Warren Samir Betchem Ngon",
-      "total_value": 18792.84,
+      "total_value": 18923.09,
       "baseline": false
     },
     {
       "id": "joel",
       "name": "Joel Tchinda Tapa",
-      "total_value": 18792.84,
+      "total_value": 18923.09,
       "baseline": false
     },
     {
       "id": "eric-lefebvre",
       "name": "Eric Lefebvre",
-      "total_value": 18792.84,
+      "total_value": 18923.09,
       "baseline": false
     },
     {
       "id": "clement",
       "name": "Clement Moquereau",
-      "total_value": 18792.84,
+      "total_value": 18923.09,
       "baseline": false
     },
     {
       "id": "paul_transon",
       "name": "Paul Transon",
-      "total_value": 18792.84,
+      "total_value": 18923.09,
       "baseline": false
     },
     {
       "id": "random_buyer",
       "name": "random_buyer",
-      "total_value": 18616.83,
+      "total_value": 18754.56,
       "baseline": true
     },
     {
       "id": "molivier",
       "name": "Mateo Olivier",
-      "total_value": 18386.36,
+      "total_value": 18490.39,
       "baseline": false
     },
     {
       "id": "tester",
       "name": "ENSIM tester",
-      "total_value": 18100.0,
+      "total_value": 18194.34,
       "baseline": false
+    },
+    {
+      "id": "random_trader",
+      "name": "random_trader",
+      "total_value": 18072.1,
+      "baseline": true
     },
     {
       "id": "random_seller",
@@ -74,21 +80,15 @@
       "baseline": true
     },
     {
-      "id": "random_trader",
-      "name": "random_trader",
-      "total_value": 17975.22,
-      "baseline": true
-    },
-    {
       "id": "salmazaime",
       "name": "Salma Zaime",
-      "total_value": 17683.68,
+      "total_value": 17815.01,
       "baseline": false
     },
     {
       "id": "random",
       "name": "Random Trader",
-      "total_value": 15176.64,
+      "total_value": 15217.15,
       "baseline": false
     }
   ]
