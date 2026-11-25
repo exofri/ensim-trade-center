@@ -1,94 +1,94 @@
 {
-  "generated_at": "2026-11-25T02:53:10Z",
+  "generated_at": "2026-11-25T11:57:57Z",
   "leaderboard": [
     {
       "id": "taharachedi",
       "name": "Taha Rachedi",
-      "total_value": 21810.42,
+      "total_value": 21827.75,
       "baseline": false
     },
     {
       "id": "gaspard",
       "name": "Gaspard Bourdas Rougeault",
-      "total_value": 20392.63,
-      "baseline": false
-    },
-    {
-      "id": "joel",
-      "name": "Joel Tchinda Tapa",
-      "total_value": 19578.03,
+      "total_value": 20325.29,
       "baseline": false
     },
     {
       "id": "clement",
       "name": "Clement Moquereau",
-      "total_value": 19576.63,
+      "total_value": 19534.66,
       "baseline": false
     },
     {
-      "id": "warren",
-      "name": "Warren Samir Betchem Ngon",
-      "total_value": 19574.2,
+      "id": "joel",
+      "name": "Joel Tchinda Tapa",
+      "total_value": 19532.57,
       "baseline": false
     },
     {
       "id": "franck",
       "name": "Franck Nana Talom",
-      "total_value": 19573.42,
+      "total_value": 19531.77,
       "baseline": false
     },
     {
       "id": "eric-lefebvre",
       "name": "Eric Lefebvre",
-      "total_value": 19573.42,
+      "total_value": 19531.77,
       "baseline": false
     },
     {
       "id": "paul_transon",
       "name": "Paul Transon",
-      "total_value": 19573.42,
+      "total_value": 19531.77,
       "baseline": false
     },
     {
       "id": "aziz",
       "name": "Bel Hadj Salah",
-      "total_value": 19573.42,
+      "total_value": 19531.77,
+      "baseline": false
+    },
+    {
+      "id": "warren",
+      "name": "Warren Samir Betchem Ngon",
+      "total_value": 19531.62,
       "baseline": false
     },
     {
       "id": "ismail_achibat",
       "name": "Ismail Achibat",
-      "total_value": 19570.92,
+      "total_value": 19531.33,
       "baseline": false
     },
     {
       "id": "random_buyer",
       "name": "random_buyer",
-      "total_value": 19466.53,
+      "total_value": 19419.74,
       "baseline": true
     },
     {
       "id": "molivier",
       "name": "Mateo Olivier",
-      "total_value": 19304.28,
+      "total_value": 19239.6,
       "baseline": false
     },
     {
       "id": "salmazaime",
       "name": "Salma Zaime",
-      "total_value": 19191.0,
+      "total_value": 19067.19,
       "baseline": false
     },
     {
       "id": "random_trader",
       "name": "random_trader",
-      "total_value": 18871.04,
+      "total_value": 18804.34,
       "baseline": true
     },
     {
       "id": "tester",
       "name": "ENSIM tester",
-      "total_value": 18842.29,
+      "total_value": 18791.87,
       "baseline": false
     },
     {
@@ -100,7 +100,7 @@
     {
       "id": "random",
       "name": "Random Trader",
-      "total_value": 15450.75,
+      "total_value": 15432.25,
       "baseline": false
     }
   ]
