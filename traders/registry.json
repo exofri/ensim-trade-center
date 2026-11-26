@@ -1,6 +1,5 @@
 {
   "traders": [
-    {"id": "random", "name": "Random Trader", "decision_url": "https://raw.githubusercontent.com/exofri/ensim-trade-center/main/test_trader/decision.json"},
     {"id": "tester", "name": "ENSIM tester", "decision_url": "https://raw.githubusercontent.com/exofri/ensim-trader/main/decision.json"},
     {"id": "franck", "name": "Franck Nana Talom", "decision_url": "https://raw.githubusercontent.com/jaures-BUSINESS-INTELLIGENCE/ensim-trader/refs/heads/main/decision.json"},
     {"id": "warren", "name": "Warren Samir Betchem Ngon", "decision_url": "https://raw.githubusercontent.com/Warren-BI-Projet/TP_2_STUDENT_MANUAL_ensim_trade_center_trader/main/decision.json"},
@@ -13,6 +12,9 @@
     {"id": "gaspard", "name": "Gaspard Bourdas Rougeault", "decision_url": "https://raw.githubusercontent.com/BOURDAS-ROUGEAULT-Gaspard-BI-2026/ensim-trader-gaspard/main/decision.json"},
     {"id": "taharachedi", "name": "Taha Rachedi", "decision_url": "https://raw.githubusercontent.com/taharachedi/ensim-trader-taharachedi/main/decision.json"},
     {"id": "ismail_achibat", "name": "Ismail Achibat", "decision_url": "https://raw.githubusercontent.com/Ismail-Achibat-TD-TP-BI/ensim-trader-ismail/main/decision.json"},
+    {"id": "lodesthard", "name": "Gabriel Brault", "decision_url": "https://raw.githubusercontent.com/Lodesthard/ensim-trader-lodesthard/main/decision.json"},
+    {"id": "mayahamdy","name": "Maya Hamdy","decision_url": "https://raw.githubusercontent.com/mayahamdy/ensim-trader-mayahamdy/refs/heads/master/decision.json"},
+    {"id": "hendzormati","name": "Hend Zormati","decision_url": "https://raw.githubusercontent.com/Business-Intelligence-26/ensim-trader-hend/main/decision.json"},
     {"id":"aziz","name":"Bel Hadj Salah","decision_url":"https://raw.githubusercontent.com/mohamedazizbhs/ensim-trader-aziz/main/decision.json"}
   ]
 }
