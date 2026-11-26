@@ -15,6 +15,7 @@
     {"id": "lodesthard", "name": "Gabriel Brault", "decision_url": "https://raw.githubusercontent.com/Lodesthard/ensim-trader-lodesthard/main/decision.json"},
     {"id": "mayahamdy","name": "Maya Hamdy","decision_url": "https://raw.githubusercontent.com/mayahamdy/ensim-trader-mayahamdy/refs/heads/master/decision.json"},
     {"id": "hendzormati","name": "Hend Zormati","decision_url": "https://raw.githubusercontent.com/Business-Intelligence-26/ensim-trader-hend/main/decision.json"},
+    {"id": e2606220 , "name": "Oumayma Brahmi", "decision_url": "https://raw.githubusercontent.com/OumaimaBrahmi22/ensim-trader-oumaima/main/decision.json"},
     {"id":"aziz","name":"Bel Hadj Salah","decision_url":"https://raw.githubusercontent.com/mohamedazizbhs/ensim-trader-aziz/main/decision.json"}
   ]
 }
